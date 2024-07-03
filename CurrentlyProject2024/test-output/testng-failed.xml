@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.BaseClass">
+        <methods>
+          <include name="privateOngoing_video_withselfie"/>
+          <include name="publicOngoing_video_withoutselfie"/>
+          <include name="closefriendOngoing_video_withoutselfie"/>
+          <include name="private_video_withoutselfie"/>
+          <include name="closefriendOngoing_video_withselfie"/>
+          <include name="private_video_withselfie"/>
+          <include name="Existinguser"/>
+          <include name="closefriend_video_withselfie"/>
+          <include name="setup"/>
+          <include name="closefriend_video_withoutselfie"/>
+          <include name="publicOngoing_video_withselfie"/>
+          <include name="privateOngoing_video_withoutselfie"/>
+        </methods>
+      </class> <!-- tests.BaseClass -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

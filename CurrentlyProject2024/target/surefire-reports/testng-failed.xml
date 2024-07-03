@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="tests.Tests">
+        <methods>
+          <include name="privateongoing_moment_withselfie"/>
+          <include name="closefriendOngoing_video_withoutselfie"/>
+          <include name="publicongoing_moment_withoutselfie"/>
+          <include name="closefriend_moment_withoutselfie"/>
+          <include name="PrivateCarousel_without_selfie"/>
+          <include name="PublicCarousel_with_selfie"/>
+          <include name="public_video_withselfie"/>
+          <include name="LoginwithExistinguser"/>
+          <include name="publicOngoing_video_withoutselfie"/>
+          <include name="PublicOngoingCarousel_without_selfie"/>
+          <include name="closefriendOngoing_video_withselfie"/>
+          <include name="Existinguser"/>
+          <include name="public_moment_withoutselfie"/>
+          <include name="setup"/>
+          <include name="ClosefriendCarousel_without_selfie"/>
+          <include name="publicOngoing_video_withselfie"/>
+          <include name="PublicCarousel_without_selfie"/>
+          <include name="private_moment_withselfie"/>
+          <include name="ClosefriendOngoingCarousel_with_selfie"/>
+          <include name="ClosefriendOngoingCarousel_without_selfie"/>
+          <include name="privateOngoing_video_withselfie"/>
+          <include name="privateOngoing_video_withoutselfie"/>
+          <include name="closefriend_video_withselfie"/>
+          <include name="closefriendongoing_moment_withoutselfie"/>
+          <include name="PublicOngoingCarousel_with_selfie"/>
+          <include name="privateongoing_moment_withoutselfie"/>
+          <include name="publicongoing_moment_withselfie"/>
+          <include name="PrivateOngoingCarousel_with_selfie"/>
+          <include name="public_video_withoutselfie"/>
+          <include name="closefriend_moment_withselfie"/>
+          <include name="closefriend_video_withoutselfie"/>
+          <include name="SignupwithInvitedNewuser"/>
+          <include name="private_video_withoutselfie"/>
+          <include name="ClosefriendCarousel_with_selfie"/>
+          <include name="PrivateOngoingCarousel_without_selfie"/>
+          <include name="private_video_withselfie"/>
+          <include name="public_moment_withselfie"/>
+          <include name="PrivateCarousel_with_selfie"/>
+          <include name="Everytimelogin"/>
+          <include name="closefriendongoing_moment_withselfie"/>
+          <include name="private_moment_withoutselfie"/>
+        </methods>
+      </class> <!-- tests.Tests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

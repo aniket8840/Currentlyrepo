@@ -1,0 +1,7 @@
+pages\CreateMomentEvent.class
+pages\LoginPageEvent.class
+tests\Tests.class
+utils\ElementFetch.class
+tests\BaseClass.class
+pageObject\CreateMomentElements.class
+pageObject\LoginPageElements.class
